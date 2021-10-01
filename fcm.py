@@ -12,12 +12,9 @@ def distanciaEuclediana( (x,y,z),(x1,y1,z1)):
 
 e1 = cv2.getTickCount()
 
-#img = cv2.imread('f.jpg',1)
 img = cv2.imread('t1.jpg',1)
-#img1 = cv2.imread('h.png',1)
 img1 = cv2.imread('t1.jpg',1)
-#img = cv2.imread('g.png',1)
-#img1 = cv2.imread('g.png',1)
+
 print(img)
 
 cv2.imshow('image',img)
@@ -312,28 +309,7 @@ for i in range(0,height):
         if( c >= 3):
             if( classeCluster[i][j][2] == max(classeCluster[i][j]) ):  
                 cv2.line(teste,(i,j),(i,j),v[2],1)
-'''
-        if( c >= 4):
-            if( classeCluster[i][j][3] == max(classeCluster[i][j]) ):  
-                cv2.line(teste,(i,j),(i,j),v[3],1)
 
-        if( c >= 5):
-            if( classeCluster[i][j][4] == max(classeCluster[i][j]) ):
-                cv2.line(teste,(i,j),(i,j),v[4],1)
- 
-        if( c >= 6):
-            if( classeCluster[i][j][5] == max(classeCluster[i][j]) ):    
-                cv2.line(teste,(i,j),(i,j),v[5],1)
-
-        if( c >= 7):
-            if( classeCluster[i][j][6] == max(classeCluster[i][j]) ):    
-                cv2.line(teste,(i,j),(i,j),v[6],1)
-'''
-'''
-cv2.imshow('image',teste)
-cv2.waitKey(0) # se meter 0 fica para sempre
-#cv2.destroyAllWindows() 
-'''
 plt.figure()
 imAx = plt.imshow(teste)
 lena = ndimage.rotate(teste, 90)
