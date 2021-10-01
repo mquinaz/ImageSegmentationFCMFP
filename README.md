@@ -1,7 +1,5 @@
 # imgSeg-fcm-fp
-Implementation of FCM and FCMFP algorithms for image segmentation. Future work would improve the accuracy of the algorithms and use MRI database to make diagnosis.
-
-Second part of the work is a calculation of milk estimation on breast of women using thermographic images.
+Implementation of FCM and FCMFP algorithms for image segmentation. Second part of the work is a calculation of milk estimation on breast of women using thermographic images.
 
 teste.py Kmeans algorithm with first prototype of printing function, substituted by projeto.py
 
