@@ -5,12 +5,10 @@ kmeans.py is a Kmeans algorithm using the axis information(spacial context), in 
 
 proj.py FCM algorithm and can calculate milk-estimation by commenting the appropriate lines of code (RGB color space)
 
-projetoRecente.py FCM algorithm using CIELAB colorspace (bad results, substituted by proj.py)
-
 projfp.py FCMFP algorithm, calculation of best cluster choice with Xie Beni measure
 
 projetofp.py FCMFP algorithm for the milk estimation
 
 classifica.py calculates the segmentation accuracy
 
-algo.py a prototype of the classification accuracy
+FCM algorithm was tested also with CIELAB colorspace which obtained bad results.
