@@ -111,28 +111,3 @@ for k in range(0,c):
 
 print "O melhor caso da precisao da segmentacao:"
 print melhorCaso
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
