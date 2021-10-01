@@ -9,6 +9,6 @@ projfp.py FCMFP algorithm, calculation of best cluster choice with Xie Beni meas
 
 projetofp.py FCMFP algorithm for the milk estimation
 
-classifica.py calculates the segmentation accuracy
+accuracy.py calculates the segmentation accuracy
 
 FCM algorithm was tested also with CIELAB colorspace which obtained bad results.
