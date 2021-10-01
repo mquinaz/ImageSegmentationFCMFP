@@ -1,4 +1,4 @@
-# Image Segmentation implementation of FCM and FCMFP algorithms
+# Image Segmentation implementation of KMEANS, FCM and FCMFP algorithms
 Implementation of FCM and FCMFP algorithms for image segmentation. Second part of the work is a calculation of milk estimation on breast of women using thermographic images.
 
 ## kmeans.py 
